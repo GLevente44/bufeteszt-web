@@ -1,0 +1,76 @@
+body{
+    background-color: tan;
+}
+h1{
+    text-align: center;
+    color: coral;
+    background-color: burlywood;
+    
+    
+}
+h2{
+   color: goldenrod;
+   text-align: center;
+}
+
+.szendvics{
+    text-align: center;
+}
+.hambi{
+    text-align: center;
+}
+.hotdog{
+    text-align: center;
+}
+.pizza{
+    text-align: center;
+}
+.udito{
+text-align: center;
+}
+.ragcsa{
+    text-align: center;
+}
+.csoki{
+    text-align: center;
+}
+.nyaloka{
+    text-align: center;
+}
+
+.szendvics:hover{transform: scale(1.1); transition: 3s;}
+.hambi:hover{transform: scale(1.1); transition: 3s;}
+.hotdog:hover{transform: scale(1.1); transition: 3s;}
+.pizza:hover{transform: scale(1.1); transition: 3s;}
+.udito:hover{transform: scale(1.1); transition: 3s;}
+.ragcsa:hover{transform: scale(1.1); transition: 3s;}
+.csoki:hover{transform: scale(1.1); transition: 3s;}
+.nyaloka:hover{transform: scale(1.1); transition: 3s;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: coral;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: crimson;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: lightsalmon;
+  }
+  
+  .active {
+    background-color: lightsalmon; 
+  }
